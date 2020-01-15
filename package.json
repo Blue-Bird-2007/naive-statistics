@@ -2,11 +2,15 @@
   "name": "naive-statistics",
   "version": "1.0.0",
   "description": "Create methods that return the basic numerical measures of statistics",
-  "main": "index.ts",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest --config jestconfig.json"
   },
   "repository": {
     "type": "git",
@@ -19,6 +23,9 @@
   },
   "homepage": "https://github.com/Blue-Bird-2007/naive-statistics#readme",
   "devDependencies": {
+    "@types/jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.3.0",
     "typescript": "~3.5.3"
   }
 }

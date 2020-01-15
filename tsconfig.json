@@ -4,12 +4,12 @@
     "module": "commonjs",
     "lib": ["es2017", "es7", "es6", "dom"],
     "declaration": true,
-    "outDir": "dist",
+    "outDir": "./lib",
     "strict": true,
     "esModuleInterop": true
   },
+  "include": ["src", "lib/RemoveNonNumbers.ts"],
   "exclude": [
     "node_modules",
-    "dist"
   ]
 }
