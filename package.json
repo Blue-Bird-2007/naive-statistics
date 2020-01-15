@@ -1,0 +1,24 @@
+{
+  "name": "naive-statistics",
+  "version": "1.0.0",
+  "description": "Create methods that return the basic numerical measures of statistics",
+  "main": "index.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blue-Bird-2007/naive-statistics.git"
+  },
+  "author": "Regan Cannell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blue-Bird-2007/naive-statistics/issues"
+  },
+  "homepage": "https://github.com/Blue-Bird-2007/naive-statistics#readme",
+  "devDependencies": {
+    "typescript": "~3.5.3"
+  }
+}
