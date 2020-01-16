@@ -1,4 +1,4 @@
-import { removeNonNumbers } from "../app/RemoveNonNumbers";
+import { removeNonNumbers } from "../app/removeNonNumbers";
 
 test('Return the same array if it only consists of numbers', () => {
     const arrayOfNumbersOnly: number[] = [4, 5, 75, 23];
